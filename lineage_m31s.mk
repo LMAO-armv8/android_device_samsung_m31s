@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 ## Inherit from m31 device
-$(call inherit-product, device/samsung/m31/device.mk)
+$(call inherit-product, device/samsung/m31s/device.mk)
 
 ## Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -37,10 +37,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 ## Device identifier, this must come after all inclusions
-PRODUCT_DEVICE := m31
-PRODUCT_NAME := lineage_m31
+PRODUCT_DEVICE := m31s
+PRODUCT_NAME := lineage_m31s
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-M315F
+PRODUCT_MODEL := SM-m31s5F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
 
