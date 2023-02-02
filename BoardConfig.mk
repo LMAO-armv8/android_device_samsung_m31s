@@ -27,7 +27,7 @@ TARGET_OTA_ASSERT_DEVICE := m31s,m31sdd,m31snsxx
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 ## Kernel Defconfig
-TARGET_KERNEL_CONFIG := 
+TARGET_KERNEL_CONFIG := exynos9610-m31snsxx_defconfig
 
 
 ## Manifest

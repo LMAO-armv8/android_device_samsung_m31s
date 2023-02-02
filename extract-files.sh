@@ -30,3 +30,4 @@ export DEVICE_COMMON=exynos9611-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+
